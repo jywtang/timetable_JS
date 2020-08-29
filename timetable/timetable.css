@@ -1,0 +1,57 @@
+#timetable-wrapper{
+    /* display: flex;
+  flex-wrap: nowrap; */
+  overflow-x: auto;
+  /* width: 100%; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+#timetable-wrapper::-webkit-scrollbar {
+    display: none;
+} 
+
+#timetable{
+    width:100%;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+table,th,td{
+    border:solid;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+
+th,td{
+font-size: small;
+padding:2px; 
+width:100px;
+}
+
+td div {
+padding:3px;
+margin-top: 2px;
+font-size: medium;}
+
+
+.chu { background:#ff9999; color:#663300 }
+.cla { background:#000000; color:#ffff00 }
+.cai { background:#66ccff; color:#000000 }
+.cor { background:#ff0099; color:#ffffff }
+.dow { background:#000000; color:#ff00ff }
+.emm { background:#ff6699; color:#000066 }
+.ftz { background:#990033; color:#999999 }
+.gir { background:#00cc00; color:#000000 }
+.hom { background:#000066; color:#ffffff }
+.jes { background:#cc0000; color:#000000 }
+.lcy { background:#0000cc; color:#000000 }
+.mag { background:#000066; color:#ff99ff }
+.nwh { background:#000099; color:#ff0000 }
+.nwn { background:#999999; color:#ffcc00 }
+.que { background:#006600; color:#ffffff }
+.rob { background:#999999; color:#000099 }
+.sid { background:#000077; color:#ffffff }
+.eds { background:#66ccff; color:#000099 }
+.sel { background:#990033; color:#cc9900 }
+.oth { background:#ffffff; color:#000000 }
